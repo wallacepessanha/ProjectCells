@@ -1,0 +1,76 @@
+﻿@using PCE.WebApp.MVC.Extensions
+@model IEnumerable<PCE.WebApp.MVC.Models.CellViewModel>
+
+@{
+    ViewData["Title"] = "Lista de Células";
+}
+
+<div class="row">
+    <div class="col-md-12">
+        <div class="card">
+            <div class="card-body">
+                <h2>Consulta de Contas</h2>
+                <p>Listagem de contas cadastradas.</p>
+                <hr />
+
+                @*Summary de erro*@
+
+                @if (Model.Count() > 0)
+                {
+                    <div class="table-responsive">
+                        <table id="grid" class="table table-sm table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Nome</th>
+                                    <th>Operação</th>
+                                    <th>Código Operação</th>
+                                    <th>Status</th>
+                                    <th>Ação</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@item.Id</td>
+                                        <td>@item.Name</td>
+                                        <td>@this.FormataOperationDescricao(item.IdOperation)</td>
+                                        <td>@item.CodOperation</td>
+                                        <td>@this.FormataStatusDescricao(item.IdStatus)</td>
+                                        <td class="text-right">
+                                            <a class="btn btn-info" asp-action="Details" asp-route-id="@item.Id"><spam class="fa fa-search"></spam></a>
+                                            <a class="btn btn-warning" supress-by-claim-name="Home" supress-by-claim-value="Editar" asp-action="Edit" asp-route-id="@item.Id"><spam class="fa fa-pencil-alt"></spam></a>
+                                            <a class="btn btn-danger" supress-by-claim-name="Home" supress-by-claim-value="Excluir" asp-action="Delete" asp-route-id="@item.Id"><spam class="fa fa-trash"></spam></a>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                            <tfoot>
+                                <tr>
+                                    <td colspan="6">
+                                        Quantidade de contas: @Model.Count()
+                                    </td>
+                                </tr>
+                            </tfoot>
+                        </table>
+                    </div>
+                }
+
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {   
+
+    <script>        
+            $(document).ready(function () {
+                $('#grid').DataTable({
+                    order: [[3, 'desc']],
+                    pageLength: 10
+                });
+            });        
+    </script>
+
+}

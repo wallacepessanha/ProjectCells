@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "sMRGEgkT5Y/cdifLxefss7AZyK8Dc6AUsMdwz2IL1co=",
+  "Source": "PCE.Cells.API",
+  "BasePath": "_content/PCE.Cells.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

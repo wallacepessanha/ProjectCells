@@ -1,0 +1,44 @@
+﻿@using PCE.WebApp.MVC.Extensions
+@model PCE.WebApp.MVC.Models.CellViewModel
+
+@{
+    ViewData["Title"] = "Detalhe do Produto - " + Model.Name;
+}
+
+<h4 style="padding-top: 50px">@ViewData["Title"]</h4>
+<hr />
+<div class="row">   
+    <div class="col-md-6">
+        <dl>
+            <dt>
+                @Html.DisplayNameFor(model => model.Name)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.Name)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.IdOperation)
+            </dt>
+            <dd>
+                @this.FormataOperationDescricao(Model.IdOperation)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.CodOperation)
+            </dt>
+            <dd>
+                @Html.DisplayFor(model => model.CodOperation)
+            </dd>
+            <dt>
+                @Html.DisplayNameFor(model => model.IdStatus)
+            </dt>
+            <dd>
+                @this.FormataStatusDescricao(Model.IdStatus)
+            </dd>     
+        </dl>
+
+        <div>
+            <a supress-by-claim-name="Home" supress-by-claim-value="Editar" class="btn btn-dark" sp-action="Edit" asp-route-id="@Model.Id">Editar</a>
+            <a class="btn btn-info" href="javascript:window.history.back();">Voltar</a>
+        </div>
+    </div>
+</div>

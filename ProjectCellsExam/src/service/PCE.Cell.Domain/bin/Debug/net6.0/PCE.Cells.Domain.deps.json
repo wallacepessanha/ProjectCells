@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "PCE.Cells.Domain/1.0.0": {
+        "runtime": {
+          "PCE.Cells.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "PCE.Cells.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

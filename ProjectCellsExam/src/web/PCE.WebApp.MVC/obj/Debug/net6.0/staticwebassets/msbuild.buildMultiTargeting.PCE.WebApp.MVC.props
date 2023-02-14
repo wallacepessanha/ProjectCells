@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\PCE.WebApp.MVC.props" />
+</Project>

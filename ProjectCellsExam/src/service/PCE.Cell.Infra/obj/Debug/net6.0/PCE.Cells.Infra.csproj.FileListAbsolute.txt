@@ -1,0 +1,15 @@
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\bin\Debug\net6.0\PCE.Cells.Infra.deps.json
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\bin\Debug\net6.0\PCE.Cells.Infra.dll
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\bin\Debug\net6.0\PCE.Cells.Infra.pdb
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.csproj.AssemblyReference.cache
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.GeneratedMSBuildEditorConfig.editorconfig
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.AssemblyInfoInputs.cache
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.AssemblyInfo.cs
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.csproj.CoreCompileInputs.cache
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.dll
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\refint\PCE.Cells.Infra.dll
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.pdb
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\ref\PCE.Cells.Infra.dll
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\bin\Debug\net6.0\PCE.Cells.Domain.dll
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\bin\Debug\net6.0\PCE.Cells.Domain.pdb
+E:\Projetos\ProjectCells\ProjectCellsExam\src\service\PCE.Cell.Infra\obj\Debug\net6.0\PCE.Cells.Infra.csproj.CopyComplete
